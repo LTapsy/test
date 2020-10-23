@@ -1,11 +1,13 @@
 @font-face {
     font-family: OpenSansLight;
     src: url(../fonts/OpenSans-Light.ttf);
+    font-display: swap;
 }
 
 @font-face {
     font-family: OpenSansBold;
     src: url(../fonts/OpenSans-Bold.ttf);
+    font-display: swap;
 }
 
 .show-desktop{
