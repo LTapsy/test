@@ -552,17 +552,17 @@ footer p{
     }
 
     header{
-        margin-top:-20px;
+        margin-top:0px;
         background:url(../images/mint_dress_1920px-mobile.jpg);
         background-size: cover;
         background-position: center;
-        height:120vh;
+        height:90vh;
         justify-content: center;
         align-items: center;
     }
 
     header .heading{
-        font-size:1.5em;
+        font-size:24px;
         font-family: OpenSansBold;
         text-align: center;
     }
