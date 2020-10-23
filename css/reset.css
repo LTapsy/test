@@ -1,0 +1,41 @@
+/* Fonts */
+
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: OpenSansLight;
+    src: url(../fonts/OpenSans-Light.ttf);
+}
+
+@font-face {
+    font-family: OpenSansBold;
+    src: url(../fonts/OpenSans-Bold.ttf);
+}
+
+/* CSS Reset */
+
+*{
+    padding:0;
+    margin:0;
+    display:flex;
+    flex-direction: column;
+    text-decoration: none;
+    color:#1A2A33;
+    font-family: OpenSans;
+    cursor: default;;
+}
+
+input,select{
+    background:transparent;
+}
+
+title,script{
+    display:none;
+}
+
+body{
+    /* width:100vw; */
+}
