@@ -163,6 +163,33 @@ form{
     transition: 0.5s;
 }
 
+.scrollBtn{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    background:#14bf98;
+    justify-content: center;
+    align-items: center;
+    position:fixed;
+    bottom:10px;
+    right:10px;
+}
+
+#opacity-hide{
+    opacity:0;
+    transition: 0.5s;
+}
+
+#opacity-show{
+    opacity:1;
+    transition: 0.5s;
+}
+
+.scrollBtn i{
+    color:white;
+}
+
+
 /* FOOTER */
 
 footer{

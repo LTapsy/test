@@ -6,18 +6,30 @@
     <title>Tulu Canada</title>
 
     <link rel="preload" as="style" href="css/reset.css">
+    <link rel="preload" as="style" href="webfonts/styles/all.css">
     <link rel="preload" as="style" href="css/earlyAccess.css">
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="webfonts/styles/all.css">
     <link rel="stylesheet" href="css/earlyAccess.css">
+    <link rel="icon" href="images/tulu-favicon_RGB.jpg">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179392990-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-179392990-1');
+    </script>
 </head>
 <body onscroll="test()">
     <div class="wrapper">
         <nav class="nav-transparent">
             <div class="logo">
-                <img src="images/tuluCanada-logo_white.png" class="show-desktop tuluCanada">
-                <img src="images/tulu-logo_white.png" class="show-mobile tuluLogo">
+                <a href="index.html">
+                    <img src="images/tuluCanada-logo_white.png" class="show-desktop tuluCanada">
+                    <img src="images/tulu-logo_white.png" class="show-mobile tuluLogo">
+                </a>
             </div>
             <div class="links">
                 <i id="menuBtn" class="fas fa-bars fa-2x" onclick="sidemenu()"></i>
@@ -91,6 +103,11 @@
                 </div>
             </form>
         </header>
+        <div class="scrollBtn" id="opacity-hide">
+            <a href="#">
+                <i class="fas fa-chevron-up"></i>
+            </a>
+        </div>
         <footer>
             <p>Copyright &copy 2020 Tulu</p>
         </footer>
