@@ -28,6 +28,10 @@
     cursor: default;;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 input,select{
     background:transparent;
 }

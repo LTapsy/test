@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tulu Canada</title>
+
+    <link rel="preload" as="style" href="css/reset.css">
+    <link rel="preload" as="style" href="css/style.css">
+
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="webfonts/styles/all.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body onscroll="test()">
-    <div class="wrapper">
+    <div class="wrapper" id="#">
         <nav class="nav-transparent">
             <div class="logo">
                 <img src="images/tuluCanada-logo_white.png" class="show-desktop tuluCanada">
@@ -19,25 +23,25 @@
                 <i id="menuBtn" class="fas fa-bars fa-2x" onclick="sidemenu()"></i>
                 <ul class="navigationList">
                     <li class="navigationListItem">
-                        <a href="" class="navigationLink">HOME</a>
+                        <a href="#home" class="navigationLink">HOME</a>
                     </li>
                     <li class="navigationListItem">
-                        <a href="" class="navigationLink">INTRO</a>
+                        <a href="#intro" class="navigationLink">INTRO</a>
                     </li>
                     <li class="navigationListItem">
-                        <a href="" class="navigationLink">BENEFITS</a>
+                        <a href="#benefits" class="navigationLink">BENEFITS</a>
                     </li>
                     <li class="navigationListItem">
-                        <a href="" class="navigationLink">ABOUT</a>
+                        <a href="#about" class="navigationLink">ABOUT</a>
                     </li>
                     <li class="navigationListItem">
-                        <a href="" class="navigationLink">TEAM</a>
+                        <a href="team.html" class="navigationLink">TEAM</a>
                     </li>
                 </ul>
-                <a href="" class="earlyAccess">Get Early Access</a>
+                <a href="earlyAccess.html" class="earlyAccess">Get Early Access</a>
             </div>
         </nav>
-        <header>
+        <header id="home">
             <h1 class="heading">
                 A revolutionary social marketplace
             </h1>
@@ -87,7 +91,7 @@
                 </div>
             </form>
         </header>
-        <div class="autoExp">
+        <div class="autoExp" id="intro">
             <div class="textContainer">
                 <h2 class="heading">
                     Redefining the auto buying experience...
@@ -98,7 +102,7 @@
                 <img src="images/mint_umbrellas_690px.jpg" alt="">
             </div>
         </div>
-        <div class="accessTulu">
+        <div class="accessTulu" id="benefits">
             <h2 class="heading">Get early access as a tulu</h2>
             <h3>Earn secondary income</h3>
             <p>On average, our Tulus can earn anywhere between $200 - $3000 for every person you help in your network purchase a vehicle and possibly more!</p>
@@ -128,7 +132,7 @@
                 </li>
             </ul>
         </div>
-        <div class="vision">
+        <div class="vision" id="about">
             <h2 class="heading">VISION</h2>
             <div class="card">
                 <img src="images/glasses398.jpg" alt="">
@@ -208,7 +212,9 @@
             </ul>
         </div>
             <div class="scrollBtn" id="opacity-hide">
-                <i class="fas fa-chevron-up"></i>
+                <a href="#">
+                    <i class="fas fa-chevron-up"></i>
+                </a>
             </div>
         <footer>
             <p>Copyright &copy 2020 Tulu</p>

@@ -23,12 +23,18 @@ function test(){
             }
         }
     }
-
+    if(pageYOffset==0){
+        scrollTop.id = "opacity-hide";
+    }
+    else if(pageYOffset>20){
+        scrollTop.id = "opacity-show";
+    }
     var x = window.matchMedia("(max-width: 700px)")
     myFunction(x) 
     x.addListener(myFunction) //
     
 }
+
 
 
 var menuToggle = "off";
